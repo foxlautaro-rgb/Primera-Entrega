@@ -22,6 +22,7 @@ background-color: #49492C;
  height: 150px;
 }
 
+/* Selector de ID */
 #Fecha {
     background-color: #FFFDF3;
     color: #E33A20;
@@ -44,6 +45,7 @@ section {
     background-color: #E33A20;
 }
 
+/* Selector de ID */
 #invitada {
     background-color: #E33A20;
 }
@@ -59,11 +61,6 @@ h2 {
  padding: 10px 0px;
 }
 
-/* Selector de elemento - Section */
-section {
-    margin: 20px;
-    padding: 20px;
-}
 
 /* Selector descendiente */
 .Artistas h3 {
@@ -88,7 +85,7 @@ h3 ~ p {
 
 
 
-/* Combinación hermano adyasente */
+/* Combinación hermano adyacente */
 h3 + p {
     color: #49492C;       
     font-weight: bold;    
@@ -104,6 +101,7 @@ h3 + p {
  }
 
 
+ /* Selector de elemento - H3 */
 h3 {
     color: #FFFDF3;
     margin: 10px 0px;
@@ -126,15 +124,17 @@ li {
     color: #FFFDF3;
     padding: 15px 20px;
     margin: 12px 0;
-    width: 600px
+    width: 600px;
 }
 
+/* Selector de ID */
 #frase { 
     color: #FFFDF3;
     background-color: #E33A20;
 }
 
 
+/* Footer */
 footer {
     background-color: #49492C;
     color: #FFFDF3;
