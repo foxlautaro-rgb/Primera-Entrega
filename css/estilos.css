@@ -1,0 +1,142 @@
+
+
+/* Selector Universal */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Body como selector - Ley de herencia */
+body {
+background-color: #FFFDF3;
+}
+
+
+/* Selector de elemento - Header */
+header {
+background-color: #49492C;
+ color: #FFFDF3;
+ padding: 6px;
+ text-align: center;
+ height: 150px;
+}
+
+#Fecha {
+    background-color: #FFFDF3;
+    color: #E33A20;
+    padding: 10px;
+    margin: 20px 0px;
+    width: 340px;
+}
+
+
+/* Selector de elemento - Section */
+section {
+    background-color: #429097;
+    color: #FFFDF3;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Selector de ID */
+#Introduccion {
+    background-color: #E33A20;
+}
+
+#invitada {
+    background-color: #E33A20;
+}
+
+/* Selector de elemento - H1 */
+h1 {
+ padding: 10px;
+ margin: 5px;
+}
+
+/* Selector de elemento - H2 */
+h2 {
+ padding: 10px 0px;
+}
+
+/* Selector de elemento - Section */
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Selector descendiente */
+.Artistas h3 {
+    color: #429097;
+    margin-bottom: 8px;
+}
+
+/* Selector de clase */
+.Artistas { 
+    background-color: #FFFDF3; 
+    color: #49492C; 
+    margin: 25px 0;
+    padding: 20px;
+    width: 400px;
+ }
+
+/* Combinador de hermanos generales */
+h3 ~ p {
+    color: #49492C;
+    padding: 3px 0px;
+}
+
+
+
+/* Combinación hermano adyasente */
+h3 + p {
+    color: #49492C;       
+    font-weight: bold;    
+}
+
+/* Selector de clase */
+.Invitada {
+    background-color: #E33A20; 
+    color: #FFFDF3; 
+    margin: 5px 0;
+    padding: 5px;
+    width: 150px;
+ }
+
+
+h3 {
+    color: #FFFDF3;
+    margin: 10px 0px;
+}
+
+
+
+/* Lista */
+li {
+    width: 220px;
+    padding: 10px;
+    margin:15px;
+    color: #FFFDF3;
+    background-color: #E33A20;
+}
+
+/* Selector de clase para transporte */
+.transporte {
+    background-color: #49492C;
+    color: #FFFDF3;
+    padding: 15px 20px;
+    margin: 12px 0;
+    width: 600px
+}
+
+#frase { 
+    color: #FFFDF3;
+    background-color: #E33A20;
+}
+
+
+footer {
+    background-color: #49492C;
+    color: #FFFDF3;
+    padding: 30px;
+}
